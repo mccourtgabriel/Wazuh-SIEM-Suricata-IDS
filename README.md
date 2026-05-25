@@ -3,9 +3,7 @@
 ## Objective
 [Brief Objective - Remove this afterwards]
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
-
-To gain hands-on experience on SIEM (Security Information and Event Management)  and IDS (Intrusion Detection System), I created a virtualized environment and used Wazuh, a popular open-source SIEM, and Suricata, an open-source IDS. The goal was to learn how these systems are implemented, set-up, used, and viewed in a real-world scenario; To further what I know to something I can apply.
+To gain hands-on experience on SIEM (Security Information and Event Management)  and IDS (Intrusion Detection System), I created a virtualized environment and used Wazuh, a popular open-source SIEM and XDR, and Suricata, an open-source IDS. The goal was to learn how these systems are implemented, set-up, used, and viewed in a real-world scenario; To further what I know to something I can apply.
 
 After the succesful implementation, a basic attack is simulated to ensure everything is captured properly; This helps me better understand how a potentil attack will be viewed in real-time.
 
@@ -23,6 +21,11 @@ The next part of this project would be to have a seperate didcated SIEM server w
 ### Tools Used
 [Bullet Points - Remove this afterwards]
 
+
+- SIEM: Wazuh
+- IDS: Suricata
+- VirtualBox (1 Wazuh server, 1 Wazuh agent)
+
 - Security Information and Event Management (SIEM) system for log ingestion and analysis.
 - Network analysis tools (such as Wireshark) for capturing and examining network traffic.
 - Telemetry generation tools to create realistic network traffic and attack scenarios.
@@ -35,3 +38,7 @@ Every screenshot should have some text explaining what the screenshot is about.
 Example below.
 
 *Ref 1: Network Diagram*
+
+Step 1: Create a virtualized Wazuh server
+
+
